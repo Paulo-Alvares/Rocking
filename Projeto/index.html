@@ -1,16 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rocking</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
+
 <body>
-    <!--Navbar-->
-    <div class="navbar"></div>
+    <div id="home" class="banner">
+        <!-- Navbar-->
+        <div class="header">
+            <div class="logo">
+                <a href="#home"><img src="assets/Coroa.png"></a>
+            </div>
+
+            <div class="nav_home">
+                <ul>
+                    <li><a href="index.html">HOME<div class="bar"></div></a></li>
+                    <li><a href="bandas.html">BANDAS<div class="bar"></div></a></li>
+                    <li><a href="instrumentos.html">INSTRUMENTOS<div class="bar"></div></a></li>
+                    <li><a href="personalidades.html">PERSONALIDADES<div class="bar"></div></a></li>
+                    <li><a href="cifras.html">CIFRAS<div class="bar"></div></a></li>
+                </ul>
+            </div>
+
+            <div class="plug">
+                <li class="bt_plugar"><a href="plugar.html">PLUGAR</a></li>
+            </div>
+        </div>
+
+        <!-- Home -->
+        <div class="container">
+            <div class="frases">
+                <img src="assets/Coroa.png" alt="Coroa" width="100px">
+                <h1>ROCKING</h1>
+                <p>PARA QUEM SABE A ARTE DE VIVER</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quem sou eu? -->
+    <div class="qm_sou">
+        <div class="title">
+            <h1>QUEM SOU EU?</h1>
+            <p></p>
+        </div>
+
+        <div class="eu">
+            <h1 class="meu_rostinho">MEU ROSTINHO</h1>
+            <img src="" alt="Imagem do autor do site">
+        </div>
+    </div>
+
+    <!-- Footer 
+    <div class="fale_comigo">
+        <h1>FALE COMIGO</h1>
+        <div class="social">
+            <a href="https://www.instagram.com/paulo_10111/" target="_blank">
+                <div class="icone">
+                    <img src=""><br>
+                </div>
+            </a>
+            <a href="mailto: pauloalvares66@gmail.com" target="_blank">
+                <div class="icone">
+                    <img src=""><br>
+                </div>
+            </a>
+            <a href="https://twitter.com/PauloAlvares4" target="_blank">
+                <div class="icone">
+                    <img src=""><br>
+                </div>
+            </a>
+            <a href="https://github.com/PauloCezaretto/Projeto-Individual.git" target="_blank">
+                <div class="icone">
+                    <img src=""><br>
+                </div>
+            </a>
+        </div>
+    </div> -->
 </body>
 
 </html>
+
+<script>
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector(".header")
+        header.classList.toggle("fill", window.scrollY > 10)
+    })
+</script>

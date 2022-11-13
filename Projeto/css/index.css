@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+    outline: none;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    background-color: #200B36;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #200B36;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #5D2884;
+}
+
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/fundo.png');
+    background-position-y: -4rem;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 1rem;
+    width: 90%;
+    border-radius: 50px;
+    margin: 10px auto;
+    transition: .2s ease;
+}
+
+.fill{
+    background-color: #200B36;
+    border: 1px solid #5D2884
+}
+
+.logo {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.nav_home {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    gap: 2rem;
+    margin-top: .9rem;
+}
+
+a {
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.bar{
+    width: 0;
+    height: 2px;
+    background-color: #5D2884;
+    transition: .2s ease;
+}
+
+a:hover .bar{
+    width: 60%;
+}
+
+.plug {
+    list-style: none;
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bt_plugar {
+    font-family: 'New Rocker', sans-serif;
+    font-size: 2rem;
+    background-color: #5D2884;
+    border-radius: 40px;
+    padding: .5rem 1rem; 
+    height: 60px;
+    transform: scale(1.0);
+    transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt_plugar:hover{
+    font-size: 2.3rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    padding: 3rem 0 0 0;
+}
+
+.frases {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.frases h1 {
+    font-family: 'New Rocker', sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    color: #FFFFFF;
+}
+
+.frases p {
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
