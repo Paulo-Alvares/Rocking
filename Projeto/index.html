@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rocking</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index/navbar.css">
+    <link rel="stylesheet" href="css/index/home.css">
+    <link rel="stylesheet" href="css/index/qmsou.css">
+    <link rel="stylesheet" href="css/index/footer.css">
+    <link rel="shortcut icon" href="assets/Coroa.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/390ed0de69.js" crossorigin="anonymous"></script>
 </head>
 
 
@@ -43,52 +48,144 @@
         </div>
     </div>
 
+    <div class="separa"></div>
+
     <!-- Quem sou eu? -->
     <div class="qm_sou">
-        <div class="title">
-            <h1>QUEM SOU EU?</h1>
-            <p></p>
-        </div>
+        <div class="container">
+            <div class="gallery-wrapper">
+                <div class="gallery">
+                    <div class="item current-item">
+                        <div class="perfil">
+                            <img src="assets/dinorock.jpg" alt="Imagem do autor do site" width="600px">
+                            <div class="identifica">
+                                <h2>QUEM SOU EU?</h2>
+                                <h1>Paulo Alvares</h1>
+                            </div>
+                        </div>
+                        <p>Um jovem, e iniciante no mundo da programação, com ambições de fazer do mundo um lugar
+                            melhor, mesmo que ainda não saiba como.</p>
+                    </div>
 
-        <div class="eu">
-            <h1 class="meu_rostinho">MEU ROSTINHO</h1>
-            <img src="" alt="Imagem do autor do site">
+                    <button class="arrow-right control" aria-label="Next Image"><i
+                            class="fa-solid fa-arrow-right"></i></button>
+                    <div class="item">
+                        <h1>VALORES</h1>
+                        <div class="orienta">
+                            <div class="val 1">
+                                <img src="assets/companheirismo.png" alt="Valor 1">
+                                <p>COMPANHEIRISMO</p>
+                            </div>
+                            <div class="val 2">
+                                <img src="assets/honestidade.png" alt="Valor 2">
+                                <p>HONESTIDADE</p>
+                            </div>
+                            <div class="val 3">
+                                <img src="assets/compromisso.png" alt="Valor 3">
+                                <p>COMPROMETIMENTO</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <!-- Footer 
-    <div class="fale_comigo">
-        <h1>FALE COMIGO</h1>
-        <div class="social">
-            <a href="https://www.instagram.com/paulo_10111/" target="_blank">
-                <div class="icone">
-                    <img src=""><br>
+    <div class="separa"></div>
+
+    <!-- Footer  -->
+    <div class="footer">
+        <div class="colunasfooter">
+            <div class="coluna primeira">
+                <h1>ORIENTAÇÔES</h1>
+                <p>Professor JP</p>
+                <p>Professor Rafael</p>
+            </div>
+            <div class="coluna segunda">
+                <div class="caixa_contato">
+                    <h1>CONTATO</h1>
+                    <div class="social">
+                        <a href="https://www.facebook.com/paulogabriel.alvares" target="_blank">
+                            <div class="icone">
+                                <img src="assets/facebook.png"><br>
+                            </div>
+                        </a>
+                        <a href="https://twitter.com/PauloAlvares4" target="_blank">
+                            <div class="icone">
+                                <img src="assets/twitter.png"><br>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/paulo_10111/" target="_blank">
+                            <div class="icone">
+                                <img src="assets/instagram.png"><br>
+                            </div>
+                        </a>
+                        <a href="mailto: pauloalvares66@gmail.com" target="_blank">
+                            <div class="icone">
+                                <img src="assets/email.png"><br>
+                            </div>
+                        </a>
+                        <a href="https://github.com/PauloCezaretto/Projeto-Individual.git" target="_blank">
+                            <div class="icone">
+                                <img src="assets/github.png"><br>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </a>
-            <a href="mailto: pauloalvares66@gmail.com" target="_blank">
-                <div class="icone">
-                    <img src=""><br>
-                </div>
-            </a>
-            <a href="https://twitter.com/PauloAlvares4" target="_blank">
-                <div class="icone">
-                    <img src=""><br>
-                </div>
-            </a>
-            <a href="https://github.com/PauloCezaretto/Projeto-Individual.git" target="_blank">
-                <div class="icone">
-                    <img src=""><br>
-                </div>
-            </a>
+            </div>
+            <div class="coluna terceira">
+                <h1>APOIO</h1>
+                <p>Iury Santos</p>
+                <p>Luis Nison</p>
+                <p>Pedro Rocha</p>
+                <p>Ruan Rodrigues</p>
+                <p>Thiago Pequeno</p>
+                <p>Vinicius Barbosa</p>
+            </div>
         </div>
-    </div> -->
+    </div>
 </body>
 
 </html>
 
 <script>
-    window.addEventListener("scroll", function(){
+    window.addEventListener("scroll", function () {
         var header = document.querySelector(".header")
         header.classList.toggle("fill", window.scrollY > 10)
     })
+</script>
+
+<script>
+    const controls = document.querySelectorAll('.control');
+    let currentItem = 0;
+    const items = document.querySelectorAll('.item');
+    const maxItems = items.length;
+
+    controls.forEach(control => {
+        control.addEventListener('click', () => {
+            const isLeft = control.classList.contains('arrow-right');
+
+            if (isLeft) {
+                currentItem -= 1;
+            } else {
+                currentItem += 1;
+            }
+
+            if (currentItem >= maxItems) {
+                currentItem = 0
+            }
+
+            if (currentItem < 0) {
+                currentItem = maxItems - 1;
+            }
+
+            items.forEach(item => item.classList.remove('current-item'));
+
+            items[currentItem].scrollIntoView({
+                inline: "center", behavior: "smooth",
+            });
+
+            items[currentItem].classList.add('current-item');
+        })
+    });
 </script>

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    padding: 3rem 0 0 0;
+}
+
+.frases {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.frases h1 {
+    font-family: 'New Rocker', sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    color: #FFFFFF;
+}
+
+.frases p {
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}

@@ -7,10 +7,11 @@
     outline: none;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
     background-color: #200B36;
+    overflow-x: hidden;
 }
 
 html {
@@ -30,14 +31,15 @@ html {
 }
 
 
-.banner{
+.banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../assets/fundo.png');
-    background-position-y: -4rem;
-    height: 100vh;
+    background-image: url('../../assets/fundo.png');
+    background-position-y: -1rem;
+    background-repeat: no-repeat;
+    height: 121vh;
 }
 
 .header {
@@ -50,9 +52,10 @@ html {
     border-radius: 50px;
     margin: 10px auto;
     transition: .2s ease;
+    z-index: 1;
 }
 
-.fill{
+.fill {
     background-color: #200B36;
     border: 1px solid #5D2884
 }
@@ -64,7 +67,7 @@ html {
     justify-content: center;
 }
 
-.logo img{
+.logo img {
     width: 50px;
 }
 
@@ -98,14 +101,14 @@ a {
     gap: .5rem;
 }
 
-.bar{
+.bar {
     width: 0;
     height: 2px;
     background-color: #5D2884;
     transition: .2s ease;
 }
 
-a:hover .bar{
+a:hover .bar {
     width: 60%;
 }
 
@@ -122,7 +125,7 @@ a:hover .bar{
     font-size: 2rem;
     background-color: #5D2884;
     border-radius: 40px;
-    padding: .5rem 1rem; 
+    padding: .5rem 1rem;
     height: 60px;
     transform: scale(1.0);
     transition: all 0.5s;
@@ -131,35 +134,6 @@ a:hover .bar{
     align-items: center;
 }
 
-.bt_plugar:hover{
+.bt_plugar:hover {
     font-size: 2.3rem;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 60%;
-    padding: 3rem 0 0 0;
-}
-
-.frases {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-}
-
-.frases h1 {
-    font-family: 'New Rocker', sans-serif;
-    font-weight: 700;
-    font-size: 96px;
-    color: #FFFFFF;
-}
-
-.frases p {
-    font-weight: 500;
-    font-size: 20px;
-    color: #FFFFFF;
 }

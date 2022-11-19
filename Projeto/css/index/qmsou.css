@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.separa {
+    width: 100%;
+    background-color: #5d2884;
+    height: 3px;
+}
+
+.qm_sou {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/guitarrista.png');
+    background-position-y: -1rem;
+    background-repeat: no-repeat;
+    padding: 4rem 0;
+    height: 100vh;
+}
+
+.qm_sou .container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gallery-wrapper {
+    width: 100%;
+    padding: 0 4rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.gallery p {
+    line-height: 2rem;
+    font-size: 1.4rem;
+}
+
+.perfil{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    gap:1rem;
+}
+
+.item h1{
+    font-family: 'New Rocker', sans-serif;
+}
+
+.perfil h1{
+    font-family: 'Montserrat',sans-serif;
+}
+
+.item {
+    background: linear-gradient(90deg, #5d2884cc 0%, #5e288400 100%);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.item img {
+    width: 75px;
+    height: 75px;
+    border-radius: 500px;
+}
+
+.identifica {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.identifica h2 {
+    font-family: 'New Rocker', sans-serif;
+}
+
+button {
+    padding: 1rem;
+    background: linear-gradient(90deg, #5d2884cc, #5e288400);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    /* background-size: 300% 100%;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out; */
+    transition: all .4s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #5e288400, #5d2884cc);
+    /* background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out; */
+}
+
+.orienta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.val {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
