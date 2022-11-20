@@ -36,7 +36,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../../assets/index/home/fundo.png');
+    background-image: url('../../assets/plugar/fundo_plugar.png');
     background-position-y: -1rem;
     background-repeat: no-repeat;
     height: 121vh;
@@ -57,7 +57,7 @@ html {
 
 .fill {
     background-color: #200B36;
-    border: 1px solid #5D2884
+    border: 1px solid #5D2884;
 }
 
 .logo {

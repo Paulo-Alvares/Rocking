@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.caixa_log{
+    width: 50%;
+    height: 100%;
+    background-color: #200B36;
+    border: 2px solid #5D2884;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campos input{
+    width: 100%;
+    background-color: #5D2884;
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+}

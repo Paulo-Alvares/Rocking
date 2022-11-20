@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plugar</title>
+    <link rel="shortcut icon" href="assets/index/home/coroa.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/plugar/navbar.css">
+    <link rel="stylesheet" href="css/plugar/plugar.css">
+</head>
+
+<body>
+    <div id="home" class="banner">
+        <!-- Navbar-->
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><img src="assets/index/home/coroa.png"></a>
+            </div>
+
+            <div class="nav_home">
+                <ul>
+                    <li><a href="index.html">HOME<div class="bar"></div></a></li>
+                    <li><a href="bandas.html">BANDAS<div class="bar"></div></a></li>
+                    <li><a href="instrumentos.html">INSTRUMENTOS<div class="bar"></div></a></li>
+                    <li><a href="personalidades.html">PERSONALIDADES<div class="bar"></div></a></li>
+                    <li><a href="cifras.html">CIFRAS<div class="bar"></div></a></li>
+                </ul>
+            </div>
+
+            <div class="plug">
+                <li class="bt_plugar"><a href="plugar.html">PLUGAR</a></li>
+            </div>
+        </div>
+
+        <!-- Tela de Plugar -->
+        <div class="container">
+            <div class="caixa_log">
+                <h1>LOGIN</h1>
+                <div class="campos">
+                    <input placeholder="Email" id="in_email"><br>
+                    <input placeholder="Senha" id="in_senha"><br>
+                    <button onclick="plugar()">PLUGAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+    window.addEventListener("scroll", function () {
+        var header = document.querySelector(".header")
+        header.classList.toggle("fill", window.scrollY > 10)
+    })
+</script>
