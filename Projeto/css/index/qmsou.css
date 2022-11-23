@@ -48,19 +48,19 @@
     font-size: 1.4rem;
 }
 
-.perfil{
+.perfil {
     display: flex;
     justify-content: flex-start;
     width: 100%;
-    gap:1rem;
+    gap: 1rem;
 }
 
-.item h1{
+.item h1 {
     font-family: 'New Rocker', sans-serif;
 }
 
-.perfil h1{
-    font-family: 'Montserrat',sans-serif;
+.perfil h1 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .item {
@@ -74,6 +74,10 @@
     align-items: center;
     gap: 2rem;
     padding: 2rem;
+}
+
+.item:hover {
+    background: linear-gradient(90deg, #5e288400, #5d2884cc);
 }
 
 .item img {
@@ -105,30 +109,19 @@ button {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-
-    /* background-size: 300% 100%;
-    -moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out; */
-    transition: all .4s ease-in-out;
 }
 
-button:hover {
-    background: linear-gradient(90deg, #5e288400, #5d2884cc);
-    /* background-position: 100% 0;
-    -moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out; */
+button:hover i{
+    transform: rotate(180deg);
 }
 
-.orienta{
+.orienta {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.orienta p{
+.orienta p {
     font-size: 15px;
 }
 
@@ -137,4 +130,9 @@ button:hover {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
+}
+
+.arrow-right>i {
+    transform: rotate(0deg);
+    transition: .2s ease;
 }
