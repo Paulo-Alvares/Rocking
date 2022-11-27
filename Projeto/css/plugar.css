@@ -272,7 +272,7 @@ button:focus {
     border-radius: 50%;
     background: linear-gradient(90deg, #5d2884cc 0%, #200B36 100%);
     backdrop-filter: blur(100px);
-    transition: 1.5s;
+    transition: 1.2s;
 }
 
 .bola.active {
@@ -352,7 +352,7 @@ button:focus {
 
 .polvo{
     position: relative;
-    bottom: 120px;
+    bottom: 80px;
     width: 40%;
     display: flex;
     justify-content: center;
@@ -379,4 +379,26 @@ button:focus {
 
 body {
     overflow: hidden;
+}
+
+.voltar{
+    font-size: 70px;
+    position: absolute;
+    top: 470px;
+    left: 150px;
+}
+
+.voltar i{
+    color: #fff;
+}
+
+.bar {
+    width: 0;
+    height: 2px;
+    background-color: #200B36;
+    transition: .2s ease;
+}
+
+a:hover .bar {
+    width: 100%;
 }
