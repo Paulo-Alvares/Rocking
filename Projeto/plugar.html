@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -7,52 +7,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plugar</title>
     <link rel="shortcut icon" href="assets/index/home/coroa.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/plugar/navbar.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="css/plugar/plugar.css">
 </head>
 
 <body>
-    <div id="home" class="banner">
-        <!-- Navbar-->
-        <div class="header">
-            <div class="logo">
-                <a href="index.html"><img src="assets/index/home/coroa.png"></a>
+    <!-- Tela de Plugar -->
+    <section class="tela">
+        <div class="container">
+
+            <!-- Div de validação -->
+            <div class="validacao">
+                <div class="titulo_validacao"></div>
+                <div class="texto_validacao"></div>
             </div>
 
-            <div class="nav_home">
-                <ul>
-                    <li><a href="index.html">HOME<div class="bar"></div></a></li>
-                    <li><a href="bandas.html">BANDAS<div class="bar"></div></a></li>
-                    <li><a href="instrumentos.html">INSTRUMENTOS<div class="bar"></div></a></li>
-                    <li><a href="personalidades.html">PERSONALIDADES<div class="bar"></div></a></li>
-                    <li><a href="cifras.html">CIFRAS<div class="bar"></div></a></li>
-                </ul>
+            <!-- Formulário de login -->
+            <div class="formulario">
+                <form action="" class="login">
+                    <h1>LOGIN</h1>
+                    <div class="coleta">
+                        <div class="campo">
+                            <i class="uil uil-envelope"></i>
+                            <input type="email" placeholder="SEU EMAIL" id="in_email_login">
+                        </div>
+                        <div class="campo">
+                            <i class="uil uil-unlock"></i>
+                            <input type="password" placeholder="SUA SENHA" id="in_senha_login">
+                        </div>
+                    </div>
+                    <button type="button" onclick="plugar()">PLUGAR</button>
+                </form>
             </div>
 
-            <div class="plug">
-                <li class="bt_plugar"><a href="plugar.html">PLUGAR</a></li>
+            <!-- Formulário de cadastro -->
+            <div class="formulario">
+                <form class="cadastro">
+                    <h1>CADASTRO</h1>
+                    <div class="fase active">
+                        <div class="coleta">
+                            <div class="campo">
+                                <i class="uil uil-user"></i>
+                                <input type="text" placeholder="SEU NOME" id="in_nome_cadastro">
+                            </div>
+                            <div class="campo">
+                                <i class="uil uil-envelope"></i>
+                                <input type="email" placeholder="SEU EMAIL" id="in_email_cadastro">
+                            </div>
+                        </div>
+                        <button type="button" onclick="proximaFase()">AVANÇAR</button>
+                    </div>
+                    <div class="fase">
+                        <div class="coleta">
+                            <div class="campo">
+                                <i class="uil uil-unlock"></i>
+                                <input type="password" placeholder="SUA SENHA" id="in_senha_cadastro">
+                            </div>
+                            <div class="campo">
+                                <i class="uil uil-lock-open-alt"></i>
+                                <input type="password" placeholder="CONFIRME SUA SENHA" id="in_confirma_cadastro">
+                            </div>
+                        </div>
+                        <div class="botoes">
+                            <button type="button" onclick="voltaFase()">RETORNAR</button>
+                            <button type="button" onclick="proximaFase()">AVANÇAR</button>
+                        </div>
+                    </div>
+                    <div class="fase">
+                        <div class="campo">
+                            <label class="input-file" id="labelFile">
+                                SUA FOTO DE PERFIL
+                                <i class="uil uil-image-plus"></i>
+                                <i class="uil uil-spinner-alt"></i>
+                                <input type="file" id="in_imagem_cadastro" onchange="verImagem()">
+                            </label>
+                        </div>
+                        <div class="botoes">
+                            <button type="button" onclick="voltaFase()">RETORNAR</button>
+                            <button type="button" onclick="cadastrar()">ENTRAR PARA A BANDA</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
+    </section>
 
-        <!-- Tela de Plugar -->
-        <div class="container">
-            <div class="caixa_log">
-                <h1>LOGIN</h1>
-                <div class="campos">
-                    <input placeholder="Email" id="in_email"><br>
-                    <input placeholder="Senha" id="in_senha"><br>
-                    <button onclick="plugar()">PLUGAR</button>
-                </div>
-            </div>
+    <!-- Bola de transição -->
+    <div class="bola">
+        <div><i class="uil uil-image-plus"></i></div>
+        <div class="imagem polvo">
+            <img src="assets/plugar/polvo.png">
+        </div>
+        <div class="imagem banda">
+            <img src="assets/plugar/banda.png">
+        </div>
+        <div class=" texto_login">
+            <p>JÁ É DA VELHA GUARDA?<br>PLUGUE CONOSCO AQUI</p>
+            <button class="botoes">LOGIN</button>
+        </div>
+        <div class="texto_cadastro">
+            <p>NÃO TEM UMA CONTA? ENTRE PARA NOSSA BANDA</p>
+            <button class="botoes">CADASTRAR</button>
         </div>
     </div>
+
+    <script src="js/plugar.js"></script>
 </body>
 
 </html>
-
-<script>
-    window.addEventListener("scroll", function () {
-        var header = document.querySelector(".header")
-        header.classList.toggle("fill", window.scrollY > 10)
-    })
-</script>
