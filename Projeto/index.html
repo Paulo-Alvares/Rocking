@@ -57,7 +57,7 @@
                 <div class="gallery">
                     <div class="item current-item">
                         <div class="perfil">
-                            <img src="assets/index/quem_sou/dinorock.jpg" alt="Imagem do autor do site" width="600px">
+                            <img src="assets/index/quem_sou/eu.png" alt="Imagem do autor do site" width="600px">
                             <div class="identifica">
                                 <h2>QUEM SOU EU?</h2>
                                 <h1>Paulo Alvares</h1>
@@ -67,8 +67,9 @@
                             melhor, mesmo que ainda não saiba como.</p>
                     </div>
 
-                    <button class="arrow-right control" aria-label="Next Image"><i
-                            class="fa-solid fa-arrow-right"></i></button>
+                    <button class="arrow-right control" aria-label="Next Image">
+                        <i class="fa-solid fa-arrow-right"></i>
+                        </button>
                     <div class="item">
                         <h1>VALORES</h1>
                         <div class="orienta">
@@ -155,39 +156,4 @@
         var header = document.querySelector(".header")
         header.classList.toggle("fill", window.scrollY > 10)
     })
-</script>
-
-<script>
-    const controls = document.querySelectorAll('.control');
-    let currentItem = 0;
-    const items = document.querySelectorAll('.item');
-    const maxItems = items.length;
-
-    controls.forEach(control => {
-        control.addEventListener('click', () => {
-            const isLeft = control.classList.contains('arrow-right');
-
-            if (isLeft) {
-                currentItem -= 1;
-            } else {
-                currentItem += 1;
-            }
-
-            if (currentItem >= maxItems) {
-                currentItem = 0
-            }
-
-            if (currentItem < 0) {
-                currentItem = maxItems - 1;
-            }
-
-            items.forEach(item => item.classList.remove('current-item'));
-
-            items[currentItem].scrollIntoView({
-                inline: "center", behavior: "smooth",
-            });
-
-            items[currentItem].classList.add('current-item');
-        })
-    });
 </script>

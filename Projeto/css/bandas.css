@@ -2,13 +2,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
     background-color: #200B36;
-    /* overflow: hidden; */
 }
 
 .bannerbanda {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-image: url('../assets/bandas/fundo.png');
     background-position-y: -1rem;
@@ -17,10 +15,16 @@ body {
 }
 
 .container{
-    width: 55%;
-    height: 50%;
+    width: 60%;
+    height: 75%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: relative;
+    top: 120px;
+    gap: 3rem;
 }
 
 .apresenta{
@@ -28,7 +32,25 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 5rem;
+    gap: 3rem;
+    padding-top: 2rem;
+}
+
+.imagembanda{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.imagembanda img{
+    width: 300px;
+    border-radius: 200px;
+    box-shadow: 0 0 20px #5e2884;
+    transition: .5s ease;
+}
+
+.imagembanda img:hover{
+    box-shadow: 0 0 10px #5e2884;
 }
 
 .title h1{
@@ -43,12 +65,13 @@ body {
 }
 
 .conteudo{
+    width: 650px;
     padding: 2rem;
     gap: 1.5rem;
     display: flex;
     flex-direction: column;
-    background-color: #200B36;
-    border: 2px solid #5d2884;
+    background: linear-gradient(90deg, #5d2884cc 0%, #5e288400 100%);
+    backdrop-filter: blur(10px);
     border-radius: 50px;
 }
 
@@ -68,12 +91,13 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    gap: 3rem;
 }
 
 .membro{
-    width: 40%;
-    background-color: #200B36;
-    border: 2px solid #5d2884;
+    width: 300px;
+    background: linear-gradient(90deg, #5d2884cc 0%, #5e288400 100%);
+    backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,20 +109,50 @@ body {
 }
 
 .membro h1{
-    font-size: 24px;
+    font-size: 30px;
     font-family: 'New Rocker', sans-serif;
     text-align: center;
 }
 
+.foto{
+    width: max-content;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.foto img{
+    transition: 1s ease;
+    filter: saturate(0);
+    transform: scale(.9);
+}
+
+.foto img:hover{
+    filter: saturate(1);
+    transform: scale(1);
+}
+
 .conhecer{
-    background-color: #200B36;
-    border: 2px solid #5d2884;
+    background: linear-gradient(90deg, #5e2884 0%, #5e288400 100%);
+    backdrop-filter: blur(10px);
     border-radius: 50px;
     text-align: center;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 500px;
 }
 
 .conhecer h1{
     font-family: 'New Rocker',sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.conhecer p{
+    margin-top: 1rem;
+    display: flex;
+    line-height: 25px;
 }
 
 .alinha{

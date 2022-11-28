@@ -140,6 +140,7 @@
     top: 2.7rem;
     border-radius: 40px;
     border: 2px solid #5D2884;
+    box-shadow: 0 0 15px #5D2884;
     gap: 1rem;
 }
 
@@ -270,8 +271,7 @@ button:focus {
     width: 80%;
     height: 1200px;
     border-radius: 50%;
-    background: linear-gradient(90deg, #5d2884cc 0%, #200B36 100%);
-    backdrop-filter: blur(100px);
+    background: linear-gradient(90deg, #5e2884 0%, #200B36 100%);
     transition: 1.2s;
 }
 
@@ -342,6 +342,10 @@ button:focus {
     background-color: #5703b1;
 }
 
+.loginbtn{
+    z-index: 10;
+}
+
 .imagem {
     position: absolute;
 }
@@ -382,10 +386,10 @@ body {
 }
 
 .voltar{
-    font-size: 70px;
+    font-size: 50px;
     position: absolute;
-    top: 470px;
-    left: 150px;
+    top: 480px;
+    left: -470px;
 }
 
 .voltar i{
@@ -395,7 +399,7 @@ body {
 .bar {
     width: 0;
     height: 2px;
-    background-color: #200B36;
+    background-color: #5D2884;
     transition: .2s ease;
 }
 

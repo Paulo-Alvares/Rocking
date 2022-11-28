@@ -67,6 +67,7 @@
     background: linear-gradient(90deg, #5d2884cc 0%, #5e288400 100%);
     backdrop-filter: blur(10px);
     border-radius: 30px;
+    height: 300px;
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -76,13 +77,9 @@
     padding: 2rem;
 }
 
-.item:hover {
-    background: linear-gradient(90deg, #5e288400, #5d2884cc);
-}
-
 .item img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     border-radius: 500px;
 }
 
