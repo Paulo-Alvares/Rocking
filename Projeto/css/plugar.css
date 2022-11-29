@@ -77,6 +77,7 @@
 
 .titulo_validacao {
     font-size: 1.5em;
+    font-family: 'New Rocker', sans-serif;
     background-color: #200B36;
     color: #fff;
     width: 100%;
@@ -105,7 +106,7 @@
 }
 
 .tela .container {
-    background: url("../../assets/plugar/fundo_plugar.png");
+    background: url("../assets/plugar/fundo_plugar.png");
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -154,11 +155,11 @@
 
 .formulario i {
     background-color: #5D2884;
-    border-radius: 500px;
+    border: 1px solid #5D2884;
+    border-radius: 500px 0 0 500px;
     font-size: 30px;
     color: #fff;
-    position: absolute;
-    left: 15px;
+    position: relative;
     padding: .3rem;
 }
 
@@ -183,6 +184,27 @@ button {
     color: #fff;
 }
 
+.formulario .cadastro button {
+    width: 140px;
+    height: 35px;
+    border-radius: 40px;
+    background: none;
+    border: 1px solid #5D2884;
+    font-family: 'New Rocker', sans-serif;
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.formulario .cadastro button:hover,
+.formulario .cadastro button:focus {
+    background-color: #5D2884;
+    transition: 0.3s;
+    color: #fff;
+}
+
 button:hover,
 button:focus {
     background-color: #5D2884;
@@ -191,11 +213,11 @@ button:focus {
 }
 
 .formulario .campo input {
-    border: 1px solid #5D2884;
+    border: 2px solid #5D2884;
     width: 100%;
     font-size: 14px;
     padding: .8rem .8rem .8rem 3rem;
-    border-radius: 50px;
+    border-radius: 0 500px 500px 0;
     border-left: none;
     transition: .3s ease;
 }
@@ -224,24 +246,29 @@ button:focus {
 }
 
 .input-file {
-    background-color: #fff !important;
-    position: relative !important;
-    cursor: pointer !important;
-    border: none !important;
-    display: flex !important;
-    width: 100% !important;
-    height: 290px !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    align-items: center !important;
-    border-radius: 10px !important;
-    margin-bottom: 20px !important;
-    font-size: 1.5em;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+    border: 2px solid #5703b1;
+    width: 50%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+}
+
+.input-file i{
+    background-color: #fff;
+    border: none;
+    font-size: 80px;
+    color: #5D2884;
+    position: absolute;
 }
 
 .input-file>.uil-image-plus {
     margin-top: 10px;
-    width: 90px !important;
+    width: 30%;
 }
 
 .input-file>.uil-spinner-alt {
@@ -342,7 +369,7 @@ button:focus {
     background-color: #5703b1;
 }
 
-.loginbtn{
+.loginbtn {
     z-index: 10;
 }
 
@@ -350,11 +377,11 @@ button:focus {
     position: absolute;
 }
 
-.imagem img{
+.imagem img {
     width: 400px;
 }
 
-.polvo{
+.polvo {
     position: relative;
     bottom: 80px;
     width: 40%;
@@ -362,7 +389,7 @@ button:focus {
     justify-content: center;
 }
 
-.banda{
+.banda {
     left: 75px;
     position: relative;
     display: flex;
@@ -385,14 +412,14 @@ body {
     overflow: hidden;
 }
 
-.voltar{
+.voltar {
     font-size: 50px;
     position: absolute;
     top: 480px;
     left: -470px;
 }
 
-.voltar i{
+.voltar i {
     color: #fff;
 }
 
