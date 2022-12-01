@@ -40,6 +40,7 @@ html {
     background-position-y: -1rem;
     background-repeat: no-repeat;
     height: 121vh;
+    background-size: cover;
 }
 
 .header {
