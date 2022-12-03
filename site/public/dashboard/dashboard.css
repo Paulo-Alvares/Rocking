@@ -1,0 +1,164 @@
+/* Dashboard */
+.dashboard {
+    position: relative;
+    left: 250px;
+    bottom: 18px;
+    min-height: 100vh;
+    width: calc(100% - 250px);
+    transition: var(--tran-05);
+    background-image: url(Images/Frame\ 1.png);
+}
+
+nav.close~.dashboard {
+    left: 73px;
+    width: calc(100% - 73px);
+}
+
+.dashboard .top {
+    position: fixed;
+    top: 20px;
+    left: 270px;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px 8px 10px;
+    border-radius: 10px;
+    background-color: #5D2884;
+    transition: .5s ease;
+    z-index: 10;
+}
+
+nav.close~.dashboard .top {
+    left: 93px;
+    width: auto;
+}
+
+.dashboard .top .sidebar-toggle {
+    font-size: 26px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.dashboard .dash-content {
+    padding-top: 100px;
+}
+
+.dashboard .parte2{
+    padding-top: 50px;
+}
+
+.dash-content .title {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 20px 0;
+    justify-content: center;
+}
+
+.dash-content .title i {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    background-color: #5D2884;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.dash-content .title .text {
+    font-size: 30px;
+    font-family: 'New Rocker';
+    color: #fff;
+    margin-left: 10px;
+}
+
+.dash-content .boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dash-content .para {
+    padding-bottom: 1.8rem;
+}
+
+.dash-content .boxes .box {
+    width: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 15px 20px;
+    background: linear-gradient(90deg, #5d2884cc, #5e288400);
+    transition: .2s ease;
+}
+
+.dash-content .boxes .box .orienta{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.boxes .box .text {
+    white-space: nowrap;
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.boxes .box .number {
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+}
+
+.boxes .box .label{
+    padding: 1rem;
+    background-color: #200B36;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+    text-align: center;
+}
+
+.boxes .box .tet{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: .5rem;
+}
+
+.boxes .box .label .ball{
+    background-color: #e100ff;
+    width: 20px;
+    height: 20px;
+    border-radius: 500px;
+}
+
+
+.boxes .box .label .b2{
+    background-color: #6c00b9;
+}
+
+.boxes .box .label .b3{
+    background-color: #6a00f5;
+}
+
+.boxes .box img{
+    width: 140px;
+    border-radius: 500px;
+}
+
+.chart{
+    width: 140px;
+}

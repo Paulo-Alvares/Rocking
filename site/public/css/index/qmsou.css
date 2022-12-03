@@ -78,10 +78,13 @@
     padding: 2rem;
 }
 
+.item .perfil img{
+    border-radius: 500px;
+}
+
 .item img {
     width: 100px;
     height: 100px;
-    border-radius: 500px;
 }
 
 .identifica {
