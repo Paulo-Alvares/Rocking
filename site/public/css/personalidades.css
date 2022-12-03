@@ -290,12 +290,10 @@ a:hover .bar {
 
 .foto img{
     transition: 1s ease;
-    filter: saturate(0);
     transform: scale(.9);
 }
 
 .foto img:hover{
-    filter: saturate(1);
     transform: scale(1);
 }
 
