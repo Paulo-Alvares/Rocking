@@ -6,7 +6,7 @@
     min-height: 100vh;
     width: calc(100% - 250px);
     transition: var(--tran-05);
-    background-image: url(Images/Frame\ 1.png);
+    background-image: url(../assets/Frame\ 1.png);
 }
 
 nav.close~.dashboard {

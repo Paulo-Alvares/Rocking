@@ -41,7 +41,7 @@ nav {
     padding: 10px 14px;
     background-color: #160627;
     border-right: 1px solid #5D2884;
-    transition: var(--tran-05);
+    transition: .3s ease;
 }
 
 nav.close {

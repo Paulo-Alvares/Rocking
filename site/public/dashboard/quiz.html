@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionario</title>
+
+    <!-- Links CSS -->
+    <link rel="stylesheet" href="css/quiz.css" />
+
+     <!-- Icones -->
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+     <!-- Favicon -->
+     <link rel="shortcut icon" href="assets/coroa.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <nav>
+        <div class="logo-name">
+            <img src="assets/coroa.png" alt="">
+            <span class="logo_name">ROCKING</span>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li>
+                    <a href="dashboard.html">
+                        <i class="uil uil-music"></i>
+                        <span class="link-name">DADOS</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="uil uil-question-circle"></i>
+                        <span class="link-name">QUIZ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="uil uil-user-circle"></i>
+                        <span class="link-name">PERFIL</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" onclick="limparSessao()">
+                        <i class="uil uil-multiply"></i>
+                        <span class="link-name">SAIR</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="text">
+            <h1>OLÁ, <span id="b_usuario">USUÁRIO!</span></h1>
+        </div>
+    </nav>
+
+    <!-- Quiz -->
+    <section class="quiz">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+        </div>
+
+        <div class="alinhando">
+            <div class="progress">
+                <div class="progress--bar"></div>
+            </div>
+            
+            <div class="questionArea">
+                <h1>AJUDE-ME A TE CONHECER MELHOR!</h1>
+                <div class="question">...</div>
+                <div class="options"></div>
+            </div>
+            <div class="scoreArea">
+                <div class="Text"></div>
+                <button>SAIR</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/questions.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+
+</html>
