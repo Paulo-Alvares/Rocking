@@ -147,6 +147,7 @@ a:hover .bar {
     overflow: hidden;
     bottom: 1rem;
     right: 1.5rem;
+    scroll-padding-top: 1500px;
 }
 
 .slide {
