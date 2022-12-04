@@ -23,7 +23,7 @@ const ctxb = document.getElementById('myCharttree');
 
 const data = {
     datasets: [{
-        data: [4, 3, 2],
+        data: [5, 3, 2],
         backgroundColor: [
             'rgb(225, 0, 255)',
             'rgb(108, 0, 185)',
@@ -40,7 +40,7 @@ new Chart(ctx, {
 
 const data2 = {
     datasets: [{
-        data: [3, 4, 3],
+        data: [3, 4, 4],
         backgroundColor: [
             'rgb(225, 0, 255)',
             'rgb(108, 0, 185)',

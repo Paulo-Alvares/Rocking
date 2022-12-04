@@ -34,6 +34,7 @@ let questions = [
             'ELVIS PRESLEY',
             'RITA LEE',
             'CHUCK BERRY',
+            'GEORGE HARRISON',
             'ROSSETA THARPE',
             'RAUL SEIXAS',
             'R.R.MARTIN',
