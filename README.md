@@ -65,7 +65,35 @@
   A Rocking conecta-se a um banco de dados MySQL local, utilizando o MySQL Workbench para desenvolvimento e testes, e integra-se a um banco de dados PSQL na nuvem através da plataforma Neon. A aplicação conta com uma API robusta, desenvolvida em Node.js, para gerenciar as operações de backend, assegurando uma interação fluida e segura entre o frontend e os dados.
 
 # 📖Guia de Instalação
+  Siga as etapas abaixo para configurar e executar a Rocking em seu ambiente local, o processo pode ser mais fácil com uma ferramenta de edição de texto avançada como o Visual Studio Code:
+
+1. Usando o git bash clone este repositório:
+   ```
+   git clone https://github.com/Paulo-Alvares/Rocking.git
+   ```
+   
+2. Navegue até o diretório do projeto:
+   ```
+   cd rocking
+   ```
+
+3. Instale as dependências:
+   ``` 
+   npm i
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+   ``` 
+   npm start
+   ```
+
+5. Acesse a Rocking em seu navegador:
+   ```
+   http://localhost:3000
+   ```
+   
 # 💡Como Usar o Projeto?
+
 # 🔗Recursos Adicionais
 ### 🎨Design
   - <a href="https://www.figma.com/design/nK8Mw4SzvXJs4CiVYrQdn3/Rocking?node-id=0-1&t=XlhtY4Zh0NDoWsuX-1">Protótipo</a>
