@@ -93,6 +93,21 @@
    ```
    
 # 💡Como Usar o Projeto?
+* Exploração de Bandas e Álbuns <br>
+
+  Navegue pela vasta coleção de informações sobre bandas, álbuns e músicas de Rock. Use a barra de pesquisa para encontrar suas bandas favoritas e descobrir novas, acessando detalhes como discografias, datas de lançamentos e análises de álbuns.
+
+* Acompanhamento de Tendências no Rock <br>
+  
+  Explore as métricas e insights disponíveis para identificar tendências no mundo do Rock, como os álbuns mais ouvidos, bandas em ascensão, ou até mesmo a evolução de gêneros específicos ao longo do tempo.
+
+* Exploração da História do Rock <br>
+
+  Use o Rocking para mergulhar na rica história do Rock, explorando a evolução do gênero desde suas raízes até o cenário contemporâneo. Acesse artigos e conteúdos que contextualizam momentos-chave, influências culturais e transformações no estilo.
+
+* Descoberta de Novos Artistas <br>
+
+  Descubra novas bandas e músicas baseadas no seu gosto musical. Explore artistas emergentes que estão moldando o futuro do Rock, com recomendações para seu perfil.
 
 # 🔗Recursos Adicionais
 ### 🎨Design
