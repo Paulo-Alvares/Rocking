@@ -1,29 +1,28 @@
 <p align="center">
-  <img width="300px" src="./public/assets/exp/logotipo.png" align="center" alt="Rocking Logo" />
+  <img width="300px" src="../public/assets/exp/logotipo.png" align="center" alt="Rocking Logo" />
 </p>
 
 <p align="center">
-  <a href="#">Português</a> · <a href="/docs/README_EN.md">English</a>
+  <a href="../README.md">Português</a> · <a href="#">English</a>
 </p>
 
-# 🔍Índice <!-- omit in toc -->
-- [Tecnologias](#tecnologias)
-- [Visão Geral](#visão-geral)
-- [Guia de Instalação](#guia-de-instalação)
-- [Como Usar o Projeto?](#como-usar-o-projeto)
-- [Recursos Adicionais](#recursos-adicionais)
+# 🔍Summary <!-- omit in toc -->
+- [Technologies](#technologies)
+- [Overview](#overview)
+- [Installation Guide](#installation-guide)
+- [How to Use the Project?](#how-to-use-the-project)
+- [Languages and Packages](#languages-and-packages)
   - [Design](#design)
-  - [Ferramentas](#ferramentas)
-  - [Linguagens e Pacotes](#linguagens-e-pacotes)
+  - [Tools](#tools)
+  - [Languages and Packages](#languages-and-packages)
 
-# 💻Tecnologias
+# 💻Technologies
 <table align="center"><tr>
   <td valign="top" width="25%">
       
   #### <div align="center">Front-End</div>
-  <p align="center">
-    <img src="https://skillicons.dev/icons?i=html,css,js&theme=dark&perline=3" /> <!-- Remover marcação <p> para imagens-->
-  </p>
+      
+  <img src="https://skillicons.dev/icons?i=html,css,js&perline=3" />
   <br>
   </td>
   
@@ -39,7 +38,7 @@
   
   <td valign="top" width="25%">
 
-  #### <div align="center">Banco de Dados</div>
+  #### <div align="center">Database</div>
 
   <p align="center">
     <img src="https://skillicons.dev/icons?i=mysql,postgres&theme=dark&perline=3" />
@@ -49,7 +48,7 @@
 
   <td valign="top" width="25%">
 
-  #### <div align="center">Nuvem</div>
+  #### <div align="center">Cloud</div>
 
   <p align="center">
     <img src="https://skillicons.dev/icons?i=azure&theme=dark&perline=3" />
@@ -58,14 +57,14 @@
   </td>
 </tr></table>
 
-# 📝Visão Geral
-  Se você vive e respira Rock 'n' Roll, o Rocking é o seu novo paraíso! Imagine uma plataforma onde cada riff, solo e batida do seu gênero favorito é celebrado com uma enxurrada de informações atualizadas, coletâneas épicas, métricas intrigantes e insights profundos. Rocking não é apenas uma plataforma; é um verdadeiro palco digital que traz o melhor do Rock Global diretamente para você. Conecte-se com a batida que faz seu coração pulsar mais forte, descubra novos sons e mergulhe na rica história e evolução desse gênero icônico. Junte-se à revolução musical com Rocking!
+# 📝Overview
+  If you live and breathe Rock 'n' Roll, Rocking is your new paradise! Imagine a platform where every riff, solo, and beat of your favorite genre is celebrated with a flood of updated information, epic collections, intriguing metrics, and deep insights. Rocking is not just a platform; it's a true digital stage that brings the best of Global Rock straight to you. Connect with the beat that makes your heart race, discover new sounds, and dive into the rich history and evolution of this iconic genre. Join the musical revolution with Rocking!
 
-  Rocking é uma plataforma projetada para oferecer uma experiência imersiva e dinâmica aos amantes do Rock, trazendo informações, coletâneas e insights sobre esse gênero musical. Desenvolvida com HTML, CSS e JavaScript, a aplicação é leve, responsiva e acessível, com deploy realizado nos serviços da Azure para garantir alta disponibilidade e desempenho.
+  Rocking is a platform designed to offer an immersive and dynamic experience to Rock lovers, bringing information, collections, and insights about this musical genre. Developed with HTML, CSS, and JavaScript, the application is lightweight, responsive, and accessible, with deployment on Azure services to ensure high availability and performance.
 
-  A Rocking conecta-se a um banco de dados MySQL local, utilizando o MySQL Workbench para desenvolvimento e testes, e integra-se a um banco de dados PSQL na nuvem através da plataforma Neon. A aplicação conta com uma API robusta, desenvolvida em Node.js, para gerenciar as operações de backend, assegurando uma interação fluida e segura entre o frontend e os dados.
+  Rocking connects to a local MySQL database using MySQL Workbench for development and testing, and integrates with a cloud-based PSQL database via the Neon platform. The application features a robust API, developed in Node.js, to manage backend operations, ensuring smooth and secure interaction between the frontend and the data.
 
-# 📖Guia de Instalação
+# 📖Installation Guide
   Siga as etapas abaixo para configurar e executar a Rocking em seu ambiente local, o processo pode ser mais fácil com uma ferramenta de edição de texto avançada como o Visual Studio Code:
 
 1. Usando o git bash clone este repositório:
@@ -93,7 +92,7 @@
    http://localhost:3000
    ```
    
-# 💡Como Usar o Projeto?
+# 💡How to Use the Project?
 * Exploração de Bandas e Álbuns <br>
 
   Navegue pela vasta coleção de informações sobre bandas, álbuns e músicas de Rock. Use a barra de pesquisa para encontrar suas bandas favoritas e descobrir novas, acessando detalhes como discografias, datas de lançamentos e análises de álbuns.
@@ -110,19 +109,19 @@
 
   Descubra novas bandas e músicas baseadas no seu gosto musical. Explore artistas emergentes que estão moldando o futuro do Rock, com recomendações para seu perfil.
 
-# 🔗Recursos Adicionais
+# 🔗Additional Resources
 ### 🎨Design
-  - <a href="https://www.figma.com/design/nK8Mw4SzvXJs4CiVYrQdn3/Rocking?node-id=0-1&t=XlhtY4Zh0NDoWsuX-1">Protótipo</a>
-  - <a href="https://fonts.google.com/share?selection.family=Montserrat:ital,wght@0,100..900;1,100..900|New+Rocker">Fontes</a>
-  - <a href="https://fontawesome.com/">Ícones</a>
+  - <a href="https://www.figma.com/design/nK8Mw4SzvXJs4CiVYrQdn3/Rocking?node-id=0-1&t=XlhtY4Zh0NDoWsuX-1">Prototype</a>
+  - <a href="https://fonts.google.com/share?selection.family=Montserrat:ital,wght@0,100..900;1,100..900|New+Rocker">Fonts</a>
+  - <a href="https://fontawesome.com/">Icons</a>
 
 
-### 🔧Ferramentas
+### 🔧Tools
   - <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
   - <a href="https://www.figma.com/">Figma</a>
   - <a href="https://dev.mysql.com/downloads/workbench/">MySQL Worckbench</a>
   
 
-### 📦Linguagens e Pacotes
+### 📦Languages and Packages
   - <a href="https://nodejs.org/en/download/package-manager">Node</a>
   - <a href="https://neon.tech/">Neon</a>
