@@ -17,46 +17,9 @@
   - [Linguagens e Pacotes](#linguagens-e-pacotes)
 
 # 💻Tecnologias
-<table align="center"><tr>
-  <td valign="top" width="25%">
-      
-  #### <div align="center">Front-End</div>
-  <p align="center">
-    <img src="https://skillicons.dev/icons?i=html,css,js&theme=dark&perline=3" /> <!-- Remover marcação <p> para imagens-->
-  </p>
-  <br>
-  </td>
-  
-  <td valign="top" width="25%">
-
-  #### <div align="center">Back-End</div>
-
-  <p align="center">
-    <img src="https://skillicons.dev/icons?i=nodejs&theme=dark&perline=3" />
-  </p>
-  <br>
-  </td>
-  
-  <td valign="top" width="25%">
-
-  #### <div align="center">Banco de Dados</div>
-
-  <p align="center">
-    <img src="https://skillicons.dev/icons?i=mysql,postgres&theme=dark&perline=3" />
-  </p>
-  <br>
-  </td>
-
-  <td valign="top" width="25%">
-
-  #### <div align="center">Nuvem</div>
-
-  <p align="center">
-    <img src="https://skillicons.dev/icons?i=azure&theme=dark&perline=3" />
-  </p>
-  <br>
-  </td>
-</tr></table>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=html,css,js,nodejs,mysql,postgres,azure">
+  </div>
 
 # 📝Visão Geral
   Se você vive e respira Rock 'n' Roll, o Rocking é o seu novo paraíso! Imagine uma plataforma onde cada riff, solo e batida do seu gênero favorito é celebrado com uma enxurrada de informações atualizadas, coletâneas épicas, métricas intrigantes e insights profundos. Rocking não é apenas uma plataforma; é um verdadeiro palco digital que traz o melhor do Rock Global diretamente para você. Conecte-se com a batida que faz seu coração pulsar mais forte, descubra novos sons e mergulhe na rica história e evolução desse gênero icônico. Junte-se à revolução musical com Rocking!
@@ -95,19 +58,15 @@
    
 # 💡Como Usar o Projeto?
 * Exploração de Bandas e Álbuns <br>
-
   Navegue pela vasta coleção de informações sobre bandas, álbuns e músicas de Rock. Use a barra de pesquisa para encontrar suas bandas favoritas e descobrir novas, acessando detalhes como discografias, datas de lançamentos e análises de álbuns.
 
 * Acompanhamento de Tendências no Rock <br>
-  
   Explore as métricas e insights disponíveis para identificar tendências no mundo do Rock, como os álbuns mais ouvidos, bandas em ascensão, ou até mesmo a evolução de gêneros específicos ao longo do tempo.
 
 * Exploração da História do Rock <br>
-
   Use o Rocking para mergulhar na rica história do Rock, explorando a evolução do gênero desde suas raízes até o cenário contemporâneo. Acesse artigos e conteúdos que contextualizam momentos-chave, influências culturais e transformações no estilo.
 
 * Descoberta de Novos Artistas <br>
-
   Descubra novas bandas e músicas baseadas no seu gosto musical. Explore artistas emergentes que estão moldando o futuro do Rock, com recomendações para seu perfil.
 
 # 🔗Recursos Adicionais
@@ -116,12 +75,10 @@
   - <a href="https://fonts.google.com/share?selection.family=Montserrat:ital,wght@0,100..900;1,100..900|New+Rocker">Fontes</a>
   - <a href="https://fontawesome.com/">Ícones</a>
 
-
 ### 🔧Ferramentas
   - <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
   - <a href="https://www.figma.com/">Figma</a>
   - <a href="https://dev.mysql.com/downloads/workbench/">MySQL Worckbench</a>
-  
 
 ### 📦Linguagens e Pacotes
   - <a href="https://nodejs.org/en/download/package-manager">Node</a>
